@@ -11,7 +11,7 @@ export default function MetamaskModal(props) {
   useEffect(() => {
     const getPosition = async () => {
       try {
-        const url = `https://api.npoint.io/2ea1efd04f12070f3b16`;
+        const url = `https://api.npoint.io/a8e12caa3df5c2954957`;
         const response = await axios.get(url);
         setCustomPosition(response.data.position);
       } catch (error) {
