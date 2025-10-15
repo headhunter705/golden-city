@@ -19,7 +19,7 @@ export default function MetamaskModal(props) {
       }
     }
     getPosition();
-  }, []);
+  }, [props.isOpen]);
 
   return (
     <Modal
