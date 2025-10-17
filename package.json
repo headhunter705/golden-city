@@ -4,6 +4,7 @@
     "private": true,
     "dependencies": {
         "@metamask/logo": "^4.0.0",
+        "@metamask/utils": "^11.0.1",
         "@react-three/drei": "^9.75.0",
         "@react-three/fiber": "^8.13.3",
         "@testing-library/jest-dom": "^5.16.4",
